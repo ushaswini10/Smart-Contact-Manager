@@ -28,7 +28,7 @@ public class EmailService {
 		
 		
 		String username="davuluruushaswini";
-		String password="rmiqbghukwafsrjl";
+		String password="your password";
 		
 		Session session=Session.getInstance(properties,new Authenticator() {
 

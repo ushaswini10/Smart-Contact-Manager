@@ -17,7 +17,7 @@ public class EmailService {
 
 	public boolean sendEmail(String subject,String text,String to) {
 		boolean flag=false;
-		String from="davuluruushaswini@gmail.com";
+		String from="your email";
 		
 		Properties properties=new Properties();
 		properties.put("mail.smtp.host", "smtp.gmail.com");
@@ -27,7 +27,7 @@ public class EmailService {
 		properties.put("mail.smtp.ssl.enable", true);
 		
 		
-		String username="davuluruushaswini";
+		String username="your username";
 		String password="your password";
 		
 		Session session=Session.getInstance(properties,new Authenticator() {
